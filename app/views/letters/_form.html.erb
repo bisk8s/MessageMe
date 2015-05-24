@@ -1,0 +1,13 @@
+
+<div class ="form_div">
+	<%= form_for @letter,remote: true, url: {action: "create"}, html: {class: "input_letter"} do |f| %>
+	
+	  <%= f.text_field :from,:required => true, placeholder:"From"%>
+
+	   <%= f.text_field :image_url,:required => true, placeholder:"Copy image url here"%>
+
+	  <%= f.text_area :content, :required => true, placeholder:"Input message text here" %>
+
+	  <%= f.submit "Create" %>
+	<% end %>
+</div>

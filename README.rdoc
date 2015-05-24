@@ -1,0 +1,19 @@
+== Imageboard|guestbook template
+
+One day I decided to create a little imageboard
+
+I named it in the honour of Gregg Pollack who inspired me with his awesome ruby on rails guides
+
+For now this is a simple guestbook, that in future should mutate to imageboard. 
+
+Functionality: 
+
+* Create post
+
+* Post could contain text
+
+* Post could contain from field
+
+* Post could contain image
+
+

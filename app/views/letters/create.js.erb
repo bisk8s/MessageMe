@@ -1,0 +1,4 @@
+//alert("Fuck!!");
+$("div#letters").append("<%=escape_javascript(render @letter)%>");
+//alert();
+$('div#<%=dom_id(@letter)%>').hide().fadeIn(3000);

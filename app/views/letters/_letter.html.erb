@@ -1,0 +1,19 @@
+<%= div_for letter do%>
+	<div class="title">
+		<p><b><%=letter.from%></b></p>
+	</div>
+	
+		<div class="image_div">
+			<img src="<%=letter.image_url%>"/>
+		</div>
+		
+			<p><%=letter.content%></p>
+		
+		<div class="actions">
+			<ul>
+				<li><%=link_to "delete letter", letter, method: :delete, remote: true%></li>
+				<li class="answer">Answer this bullshit</li>		
+			</ul>
+		</div>
+	
+<%end%>

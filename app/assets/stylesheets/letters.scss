@@ -1,0 +1,103 @@
+// Place all the styles related to the letters controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.letter {
+	border: 4px solid #97A99B;	
+	margin:10px;
+
+	
+	& .title{
+		width:100%;
+		background-color:#97A99B;
+		font-size:20px;
+
+
+		& p{
+			margin-top:0;
+			margin-left:0;
+			
+		}		
+	}
+
+	& p {
+		
+		margin-left:20px;
+		padding:10px;
+	}
+
+	& .text_content{
+		float:left;
+	}
+
+	& .image_div {
+		float:left;
+		margin:10px;
+
+	  	&img {
+		
+			width:20%;
+			height:20%;
+
+		}	
+	} 
+
+	
+
+	& .actions {
+		clear:both;
+		text-align:right;
+	}
+
+	&  ul li {
+			
+			display:inline;
+			text-align:left;
+			margin-left:10px;
+			padding:10px;
+			color:white;
+			background-color:#97A99B;
+
+			& a{
+				text-decoration:none;
+				color:white;
+			}
+
+			&:hover{
+				background-color:#DEDF82;
+			}
+		}
+
+
+}
+#letters {
+	margin: 0 auto;
+	width:80%;
+}
+
+.form_div{
+ 	height:auto;
+ 	width:100%;
+ 	text-align: center; 	
+ 	margin: 0 auto;
+ 	padding:10px;
+
+ 	
+ }
+
+.input_letter{
+	margin: 0 auto;
+	& input, textarea {
+	 width:50%;	 
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;   
+	    & p {
+
+	    margin-top:0;
+	    margin-bottom:0;
+		 
+		}
+    }
+	
+}
+
